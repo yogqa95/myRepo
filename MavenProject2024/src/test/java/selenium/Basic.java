@@ -9,7 +9,7 @@ public class Basic {
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.hyrtutorials.com/p/window-handles-practice.html");
-		System.out.println("----------------------------------------------------");
+		
         driver.close();
     }
 }
