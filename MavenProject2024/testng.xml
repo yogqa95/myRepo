@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="chromedriver" value="webdriver.chrome.driver"/>
+    <parameter name="path" value="C:\chromedriver.exe"/>
+    <test verbose="2" preserve-order="true" name="C:/Users/GARJE/IdeaProjects/MavenProject2024">
+        <classes>
+            <class name="testng.parametrization.ParametersUsingOpenBrowser"/>
+        </classes>
+    </test>
+</suite>
