@@ -11,7 +11,7 @@ public class DependceOnGroup {
         System.out.println("Test1");
     }
 
-    @Test
+    @Test(groups ="sanaty")
     public void test2()
     {
         System.out.println("Test2");
