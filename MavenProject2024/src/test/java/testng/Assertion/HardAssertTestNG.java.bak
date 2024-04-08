@@ -21,7 +21,7 @@ public class HardAssertTestNG {
         WebElement textBoxVerify = driver.findElement(By.name("q"));
 
         Assert.assertEquals(title,"google","User should be able to open google home page");
-        Assert.assertTrue(textBoxVerify.isEnabled(),"User Should be able to visible text box");
+        Assert.assertTrue(textBoxVerify.isEnabled(),"User Should be able to visible textbox");
         driver.close();
     }
 }
