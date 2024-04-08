@@ -18,7 +18,7 @@ public class HardAssertTestNG {
 
         String title = driver.getTitle();
        // System.out.println(title);
-	    System.out.println("----------------------------------------------------")
+	    System.out.println("--");
         WebElement textBoxVerify = driver.findElement(By.name("q"));
 
         Assert.assertEquals(title,"google","User should be able to open google home page");
